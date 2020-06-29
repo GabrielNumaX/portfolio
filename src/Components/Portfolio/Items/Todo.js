@@ -14,8 +14,6 @@ const Todo = (props) => {
         window.scrollTo(0, 0)
       }, [])
 
-
-    console.log(props.location.ref)
     return(
         <div>
             <div className={css.DivItem}>

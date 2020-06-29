@@ -16,7 +16,7 @@
     -o-filter: grayscale(88%);
     -ms-filter: grayscale(88%);
     filter: grayscale(88%);
-    background: url('../../assets/skills_crop.png') top center;
+    background: url('../../assets/skills.png') top center;
     background-size: cover;
     z-index: 1;
     height: 700px;

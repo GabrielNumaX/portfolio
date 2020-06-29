@@ -64,6 +64,7 @@
     line-height: 1.5;
     padding-top: 12px;
     margin-bottom: 14px;
+    min-height: 140px;
 }
 
 .ItemLink {
@@ -84,7 +85,7 @@
 
 .GoBack {
     position: relative;
-    bottom: -100px;
+    bottom: 10px;
     color: var(--textBlack);
     font-size: 22px;
     text-decoration: underline;
@@ -144,8 +145,8 @@
     }
 
     .GoBack {
-        /* position: absolute; */
-        bottom: -110px;
+        position: relative;
+        bottom: 10px;
         color: var(--textBlack);
         font-size: 22px;
         text-decoration: underline;
@@ -202,8 +203,8 @@
 
 
     .GoBack {
-        /* position: absolute; */
-        bottom: -134px;
+        position: relative;
+        bottom: 10px;
         color: var(--textBlack);
         font-size: 22px;
         text-decoration: underline;
@@ -224,8 +225,8 @@
     }
 
     .ItemImg {
-        width: 240px;
-        margin-top: 160px;
+        width: 260px;
+        margin-top: 120px;
     }
 
     .ItemH1 {
@@ -259,8 +260,8 @@
 
 
     .GoBack {
-        /* position: absolute; */
-        bottom: -42px;
+        position: relative;
+        bottom: 10px;
         color: var(--textBlack);
         font-size: 22px;
         text-decoration: underline;
