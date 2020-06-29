@@ -1,0 +1,113 @@
+:root {
+    --text: #f7f7f7;
+    --bgc: #535257;
+  }
+
+.DivLocation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    height: auto;
+    background-color: rgba(255, 255, 255, .7);
+    border: 1px solid var(--bgc);
+    border-radius: 5px;
+    padding: 18px 32px;
+    z-index: 5;
+}
+
+.DivLocationIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.DivIcon {
+    width: 65px;
+    height: 65px;
+    background-color: var(--text);
+    border-radius: 50%;
+    border: 1px solid var(--bgc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon {
+    color: var(--bgc);
+    font-size: 38px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    /* width: 60%; */
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+
+    .DivLocation {
+        width: 100%;
+        height: auto;
+        padding: 18px 22px;
+        z-index: 5;
+        margin-bottom: 40px;
+    }
+
+    .DivIcon {
+        width: 50px;
+        height: 50px;
+        margin-top: 0px;
+    }
+    
+    .Icon {
+        color: var(--bgc);
+        font-size: 28px;
+    }
+
+    p{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 480px) {
+      
+    .DivLocation {
+        width: 100%;
+        height: auto;
+        padding: 18px 22px;
+        z-index: 5;
+        margin-bottom: 40px;
+    }
+    .DivIcon {
+        width: 50px;
+        height: 50px;
+        margin-top: 0px;
+    }
+    
+    .Icon {
+        color: var(--bgc);
+        font-size: 28px;
+    }
+
+    p{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+    }
+}

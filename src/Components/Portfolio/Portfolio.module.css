@@ -1,0 +1,310 @@
+:root {
+    --text: #f7f7f7;
+    --bgc: #535257;
+    --textBlack: #1e1e1e;
+}
+
+
+.DivPortfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background: var(--textBlack); */
+    width: 100%;
+    height: 1100px;
+}
+
+.ImgPortfolio {
+    -webkit-filter:grayscale(88%);
+    -moz-filter: grayscale(88%);
+    -o-filter: grayscale(88%);
+    -ms-filter: grayscale(88%);
+    filter: grayscale(88%);
+    background: url('../../assets/web2.png') top center;
+    background-size: cover;
+    z-index: 1;
+    height: 1100px;
+    width: 100%;
+    position: absolute;
+}
+
+.PortfolioH3 {
+    color: var(--text);
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+    padding-top: 32px;
+    margin-bottom: 30px;
+}
+
+.PortfolioColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    /* background-color: #535257; */
+    z-index: 5;
+    /* padding: 30px 80px; */
+}
+
+.PortfolioRow {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.PortfolioRow:last-child{
+    justify-content: center;
+}
+
+.PortfolioItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    border: 1px solid var(--textBlack);
+    padding: 0 12px;
+    position: relative;
+    margin: 0 12px; 
+}
+
+.ItemImg {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 12px;
+}
+
+.DivIcon {
+    color: var(--text);
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    opacity: 0;
+}
+
+.DivIcon:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.Icon {
+    font-size: 20px;
+    color: var(--text)
+}
+
+.Icon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    background-color: #1e1e1e;
+}
+
+.Icon1:nth-child(odd){
+    border-bottom-left-radius: 5px;
+}
+
+.Icon1:nth-child(even){
+    border-bottom-right-radius: 5px;
+}
+
+.Icon1:hover{
+    background-color: rgb(30, 30, 30, .9);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    
+.DivPortfolio {
+    height: 900px;
+}
+
+.ImgPortfolio {
+    height: 900px;
+}
+
+    .PortfolioH3 {
+        font-size: 42px;
+    }
+        
+    .PortfolioColumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+        /* background-color: #535257; */
+        z-index: 5;
+        /* padding: 30px 80px; */
+    }
+
+    .PortfolioRow {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+
+    .PortfolioItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 28%;
+        height: 150px;
+        background-color: rgba(255, 255, 255, .7);
+        border-radius: 5px;
+        border: 1px solid var(--textBlack);
+        padding: 0 12px;
+        position: relative;
+        margin: 0 12px; 
+    }
+
+    .ItemImg {
+        width: 100%;
+        border-radius: 5px;
+        margin: 0 12px;
+    }
+     
+    .Icon {
+        font-size: 16px;
+    }
+
+    .Icon1 {
+        height: 34px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .DivPortfolio {
+        height: 2300px;
+        justify-content: flex-start;
+    }
+
+    .ImgPortfolio {
+        height: 2300px;
+    }
+
+    .PortfolioH3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    /* .PortfolioColumn {
+        padding: 10px 10px;
+    } */
+
+    .PortfolioRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        /* height: auto; */
+        height: 100%;
+        /* background-color: var(--text); */
+        padding: 0 8px;
+        margin-bottom: 3    0px;
+        flex-wrap: nowrap;
+    }
+
+    .PortfolioItem {
+        width: 90%;
+        /* height: 140px; */
+        height: 190px;
+        padding: 0 12px;
+        margin-bottom: 28px;
+    }
+
+    .ItemImg {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 12px;
+    }
+     
+    .Icon {
+        font-size: 16px;
+    }
+
+    .Icon1 {
+        height: 34px;
+    }
+
+}
+
+
+@media (max-width: 360px) {
+
+    .DivPortfolio {
+        height: 1800px;
+        justify-content: flex-start;
+    }
+
+    .ImgPortfolio {
+        height: 1800px;
+    }
+
+    .PortfolioH3 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .PortfolioColumn {
+        padding: 10px 10px;
+    }
+
+    .PortfolioRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        /* height: auto; */
+        height: 100%;
+        /* background-color: var(--text); */
+        padding: 0 8px;
+        margin-bottom: 20px;
+        flex-wrap: nowrap;
+    }
+
+    .PortfolioItem {
+        width: 84%;
+        height: 140px;
+        padding: 0 12px;
+    }
+
+    .ItemImg {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 12px;
+    }
+     
+    .Icon {
+        font-size: 16px;
+    }
+
+    .Icon1 {
+        height: 34px;
+    }
+
+}

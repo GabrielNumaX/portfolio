@@ -1,0 +1,153 @@
+
+:root {
+    --text: #f7f7f7;
+    --bgc: #535257;
+}
+
+.IntroMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+    width: 100%;
+    height: 550px;
+}
+
+.IntroImg {
+    -webkit-filter:grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background: url('../../assets/web.png') top center;
+    background-size: cover;
+    z-index: 1;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+}
+
+.DivIntro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #1e1e1e;
+    padding: 20px 50px 30px;
+    margin: 0 80px;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, .7);
+    border: 2px solid var(--bgc);
+    border-radius: 5px;
+    height: 400px;
+}
+
+.IntroH2 {
+    margin: 0;
+    padding-top: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.IntroP {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+
+    .IntroMain {
+        height: 480px;
+    }
+    
+    .IntroImg {
+        height: 480px;
+    }
+        
+    .DivIntro {
+        padding: 10px 30px 20px;
+        margin: 0 30px;
+        height: 400px;
+    }
+
+    .IntroH2 {
+        padding-top: 0;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 40px;
+    }
+
+    .IntroP {
+        margin: 0;
+        /* padding-top: 8px; */
+        padding-bottom: 18px;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .IntroMain {
+        height: 480px;
+    }
+    
+    .IntroImg {
+        height: 480px;
+    }
+        
+    .DivIntro {
+        padding: 10px 30px 20px;
+        margin: 0 30px;
+        height: 400px;
+    }
+
+    .IntroH2 {
+        padding-top: 0;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 34px;
+    }
+
+    .IntroP {
+        padding-bottom: 18px;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .IntroMain {
+        height: 480px;
+    }
+    
+    .IntroImg {
+        height: 480px;
+    }
+        
+    .DivIntro {
+        padding: 10px 20px 20px;
+        margin: 0 20px;
+        height: 420px;
+    }
+
+    .IntroH2 {
+        font-size: 24px;
+    }
+
+    .IntroP {
+        padding-bottom: 18px;
+        line-height: 1.4;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+

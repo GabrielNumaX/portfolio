@@ -1,0 +1,117 @@
+:root {
+    --text: #f7f7f7;
+    --bgc: #535257;
+  }
+
+.DivContact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 640px;
+    /* padding: 32px 80px; */
+    /* background-color: blueviolet; */
+}
+
+.ContactBg {
+    -webkit-filter:grayscale(88%);
+    -moz-filter: grayscale(88%);
+    -o-filter: grayscale(88%);
+    -ms-filter: grayscale(88%);
+    filter: grayscale(88%);
+    background: url('../../assets/mail1_crop.png') top center;
+    background-size: cover;
+    z-index: 1;
+    height: 640px;
+    width: 100%;
+    position: absolute;
+}
+
+.ContactColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 32px 48px;
+
+}
+
+h3 {
+    z-index: 5;
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 38px;
+    color: var(--text);
+    text-shadow: 0px 0px 15px #000000;
+}
+
+
+.ContactRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+
+    .DivContact {
+        height: 1000px;
+    }
+
+    .ContactBg {
+        height: 1000px;
+    }
+
+    .ContactColumn {
+        padding: 20px 20px;
+
+    }
+
+    h3 {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+
+    .ContactRow {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .DivContact {
+        height: 1000px;
+    }
+
+    .ContactBg {
+        height: 1000px;
+    }
+
+    .ContactColumn {
+        padding: 20px 20px;
+
+    }
+
+    h3 {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+
+    .ContactRow {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
