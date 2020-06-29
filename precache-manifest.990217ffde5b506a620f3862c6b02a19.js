@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4d2430ac67569fdd1b6aab4bba39aba",
+    "revision": "2948b6d2518beca2a4e4b70f75529170",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9d5cd0f10645810cb389",
-    "url": "/portfolio/static/css/main.3bbcb16b.chunk.css"
+    "revision": "c353fcd97ffec091d8c7",
+    "url": "/portfolio/static/css/main.dae972a3.chunk.css"
   },
   {
     "revision": "92d0b0c95759cb8b6d1c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a2200978.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d5cd0f10645810cb389",
-    "url": "/portfolio/static/js/main.d8a5c281.chunk.js"
+    "revision": "c353fcd97ffec091d8c7",
+    "url": "/portfolio/static/js/main.44fd9349.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/axios.f2c25979.png"
   },
   {
-    "revision": "cba8f09870b2b467217343760e9fe4bb",
-    "url": "/portfolio/static/media/background.cba8f098.png"
+    "revision": "e956c62f68e35372a92fbc01f30af32a",
+    "url": "/portfolio/static/media/background.e956c62f.png"
   },
   {
     "revision": "f331c6270d8483f6a461ac8d2c4f3f6e",
     "url": "/portfolio/static/media/button.f331c627.png"
   },
   {
-    "revision": "364e4ec720b7c5feda608d07d61dfc58",
-    "url": "/portfolio/static/media/calculator.364e4ec7.png"
+    "revision": "2ec3bdd150c30b9fe0d9a6c0701493a5",
+    "url": "/portfolio/static/media/calculator.2ec3bdd1.png"
   },
   {
     "revision": "800b1c6b59ee3b085c9521ab22474e87",
@@ -80,12 +80,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/js.7aaf2195.png"
   },
   {
-    "revision": "cad04b1a8af6bb65a7444be36f167f6a",
-    "url": "/portfolio/static/media/mail1_crop.cad04b1a.png"
+    "revision": "03da841c2d59628241fdf813a0dccb09",
+    "url": "/portfolio/static/media/mail1_crop.03da841c.png"
   },
   {
-    "revision": "424f5b5480bdd9923b20d356cebed05e",
-    "url": "/portfolio/static/media/marble_edit.424f5b54.png"
+    "revision": "a6703e207ad7f73ab2ef402a36fbb011",
+    "url": "/portfolio/static/media/marble_edit.a6703e20.png"
   },
   {
     "revision": "f9cfa0b95e4faa6f2505a54dc9d9d7a1",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/postman.fb8c441c.jpeg"
   },
   {
-    "revision": "a3d4a589b7541663b3c398bfe2dc53fe",
-    "url": "/portfolio/static/media/profilePic.a3d4a589.jpg"
+    "revision": "6028c2de510545f3b528d77a336d63b9",
+    "url": "/portfolio/static/media/profilePic.6028c2de.jpg"
   },
   {
     "revision": "11e90c29b7c1d54a7f1a300586dc7159",
@@ -108,28 +108,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/shoplane.6a0c3881.png"
   },
   {
-    "revision": "6d30693130e43e7882ea1ea552796189",
-    "url": "/portfolio/static/media/skills_crop.6d306931.png"
+    "revision": "ace0b7dd41ad8f720a864d802e46660d",
+    "url": "/portfolio/static/media/skills_crop.ace0b7dd.png"
   },
   {
     "revision": "992ad88faf34715a1d6eac32ae7a5f9d",
     "url": "/portfolio/static/media/smartwatch.992ad88f.png"
   },
   {
-    "revision": "d8bde2f87f78fb152278e792b58e6d4c",
-    "url": "/portfolio/static/media/todo.d8bde2f8.png"
+    "revision": "dbee05fdfbf914b94ce35b5d8cb989dc",
+    "url": "/portfolio/static/media/todo.dbee05fd.png"
   },
   {
-    "revision": "d6618b1ff566e25442d42c221b82d19f",
-    "url": "/portfolio/static/media/vegan.d6618b1f.png"
+    "revision": "2b9d0b49c6d478262fbfb8898b87dc82",
+    "url": "/portfolio/static/media/vegan.2b9d0b49.png"
   },
   {
-    "revision": "6344f720438781f89f46c2889f17dd74",
-    "url": "/portfolio/static/media/web.6344f720.png"
+    "revision": "573132d3da0ce7022ad6d228cd0fff52",
+    "url": "/portfolio/static/media/web.573132d3.png"
   },
   {
-    "revision": "f700e1e7d9a4922477f6aba624fc98d5",
-    "url": "/portfolio/static/media/web2.f700e1e7.png"
+    "revision": "20bfc9021e5cf2570b889ed676d20fa9",
+    "url": "/portfolio/static/media/web2.20bfc902.png"
   },
   {
     "revision": "3d92c4de7169f4137cc11c0fc4090772",
