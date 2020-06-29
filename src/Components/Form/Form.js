@@ -86,8 +86,8 @@ class Form extends Component {
             this.setState({
                 feedback: '', 
                 name: '', 
-                email: '' ,
-                popupText: 'Email successfully sent!'
+                email: '',
+                popupText: 'Email sent successfully!!!'
             });
 
             this.togglePopup()
