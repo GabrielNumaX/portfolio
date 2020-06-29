@@ -115,6 +115,7 @@ class Form extends Component {
                             <h5>Your Name</h5>
                             <input  type="text" 
                                     name="name"
+                                    value={this.state.name}
                                     onChange={(e) => this.handleChange(e, 'name')}>
 
                             </input>
@@ -124,6 +125,7 @@ class Form extends Component {
                             <h5>Your E-mail</h5>
                             <input  type="email" 
                                     name="email"
+                                    value={this.state.email}
                                     onChange={(e) => this.handleChange(e, 'email')}>
                                     
                             </input>
