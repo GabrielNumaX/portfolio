@@ -15,7 +15,8 @@ class Form extends Component {
             name: '', 
             email: '' ,
             showPopup: false,
-            popupText: ''
+            popupText: '',
+            sendMessage: 'Send Message',
             };
     }
 
@@ -64,6 +65,10 @@ class Form extends Component {
         }
         else {
 
+            this.setState({
+                sendMessage: 'Sending...'
+            })
+
             this.sendFeedback(templateId, 
                 {
                     message_html: this.state.feedback, 
@@ -87,7 +92,8 @@ class Form extends Component {
                 feedback: '', 
                 name: '', 
                 email: '',
-                popupText: 'Email sent successfully!!!'
+                popupText: 'Email sent successfully!!!',
+                sendMessage: 'Send Message'
             });
 
             this.togglePopup()
@@ -96,6 +102,7 @@ class Form extends Component {
           .catch(err => {
 
                 this.setState({
+                    sendMessage: 'Send Message',
                     popupText: 'Something Went Wrong. Try Again'
                 });
 
@@ -142,7 +149,7 @@ class Form extends Component {
 
                     <div className={css.DivBtn}>
                         <input type="button" 
-                                value="Send Message" 
+                                value={this.state.sendMessage} 
                                 onClick={this.handleSubmit}>    
                         </input>
                     </div>
