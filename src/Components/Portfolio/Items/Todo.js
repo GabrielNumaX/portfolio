@@ -22,24 +22,39 @@ const Todo = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project: &nbsp;
-                <a href="https://gabrielnumax.github.io/todo-app/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={css.ItemLink2} >Todo App</a></h1>
+                <div className={css.DivItemCol1}>
 
-                <img src={require('../../../assets/portfolio/todo.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
-
-                <div className={css.ItemDesc}>
-                    <p>
-                        This proyect was done using ReactJS and Redux as a task for 
-                        a remote internship.
-                    </p>  
                 </div>
 
-                <h3 className={css.GoBack} onClick={() => {props.history.goBack(); window.scrollTo(0, props.location.ref)}}>Go Back</h3>
+                <div className={css.DivItemCol2}>
+
+                    <h1 className={css.ItemH1}>Project: &nbsp;
+                    <a href="https://gabrielnumax.github.io/todo-app/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink2} >Todo App</a></h1>
+
+                    <img src={require('../../../assets/portfolio/todo.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
+
+                    <div className={css.ItemDesc}>
+                        <p>
+                            This proyect was done using ReactJS and Redux as a task for 
+                            a remote internship.
+                        </p>  
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={() => {props.history.goBack(); window.scrollTo(0, props.location.ref)}}>Go Back</h3>
+
+                </div>
+
+                <div className={css.DivItemCol3}>
+                    
+                </div>
+
+
+               
                  
             </div>
 

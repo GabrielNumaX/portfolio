@@ -23,29 +23,36 @@ const Dice = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project: &nbsp;
-                    <a href="https://gabrielnumax.github.io/dice-game/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={css.ItemLink2}>Dice Game</a>
-                </h1>
+                <div className={css.DivItemCol1}></div>
 
-                <img src={require('../../../assets/portfolio/dice.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
+                <div className={css.DivItemCol2}>
 
-                <div className={css.ItemDesc}>
-                    <p>
-                        Simple Dice Game done in ReactJS to practice Lifecycle Methods.
-                        <br/>
-                        Whoever get to 60 points first wins &#127881;&nbsp;&#127882;
-                    </p>
+                    <h1 className={css.ItemH1}>Project: &nbsp;
+                        <a href="https://gabrielnumax.github.io/dice-game/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink2}>Dice Game</a>
+                    </h1>
 
-                      
-                </div>
+                    <img src={require('../../../assets/portfolio/dice.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
 
-                <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                 
+                    <div className={css.ItemDesc}>
+                        <p>
+                            Simple Dice Game done in ReactJS to practice Lifecycle Methods.
+                            <br/>
+                            Whoever get to 60 points first wins &#127881;&nbsp;&#127882;
+                        </p>
+
+                        
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
+                </div>   
+
+                <div className={css.DivItemCol3}></div>
+                         
             </div>
 
                 {zoom ? 

@@ -23,27 +23,33 @@ const Calculator = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project:&nbsp;
-                <a href="https://codepen.io/NumaX/full/MWgEebM" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={css.ItemLink2} >Calculator</a>  
-                </h1>
+                <div className={css.DivItemCol1}></div>
 
-                <img src={require('../../../assets/portfolio/calculator.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
+                <div className={css.DivItemCol2}>
 
-                <div className={css.ItemDesc}>
-                    <p>
-                        Calculator done with Vanilla JS.
-                    </p>
+                    <h1 className={css.ItemH1}>Project:&nbsp;
+                    <a href="https://codepen.io/NumaX/full/MWgEebM" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink2} >Calculator</a>  
+                    </h1>
 
-                    
+                    <img src={require('../../../assets/portfolio/calculator.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
+
+                    <div className={css.ItemDesc}>
+                        <p>
+                            Calculator done with Vanilla JS.
+                        </p>
+
+                        
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
                 </div>
 
-                <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                 
+                <div className={css.DivItemCol3}></div>
             </div>
 
                 {zoom ? 

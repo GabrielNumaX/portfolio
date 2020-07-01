@@ -23,32 +23,39 @@ const Shoplane = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project: &nbsp;
-                    <a href="https://gabrielnumax.github.io/E-Commerce/" 
-                        target="_blank" 
+                <div className={css.DivItemCol1}></div>
 
-                        rel="noopener noreferrer"
-                        className={css.ItemLink2} >Shoplane</a></h1>
-
-                <img src={require('../../../assets/portfolio/shoplane.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
-
-                <div className={css.ItemDesc}>
-                    <p>
-                        Shoplane E-Commerce with carousel and minimalistic design
-                        done with JQuery consuming from API. <br/>
-                        I've also replicated it with ReactJS and Redux &nbsp;
-                        <a href="https://gabrielnumax.github.io/react-e-commerce/" 
+                <div className={css.DivItemCol2}>
+                        
+                    <h1 className={css.ItemH1}>Project: &nbsp;
+                        <a href="https://gabrielnumax.github.io/E-Commerce/" 
                             target="_blank" 
+
                             rel="noopener noreferrer"
-                            className={css.ItemLink} >Here</a> 
+                            className={css.ItemLink2} >Shoplane</a></h1>
 
-                    </p>  
-                </div>
+                    <img src={require('../../../assets/portfolio/shoplane.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
 
-                <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                 
+                    <div className={css.ItemDesc}>
+                        <p>
+                            Shoplane E-Commerce with carousel and minimalistic design
+                            done with JQuery consuming from API. <br/>
+                            I've also replicated it with ReactJS and Redux &nbsp;
+                            <a href="https://gabrielnumax.github.io/react-e-commerce/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink} >Here</a> 
+
+                        </p>  
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
+                </div> 
+
+                <div className={css.DivItemCol3}></div>
+                   
             </div>
 
                 {zoom ? 

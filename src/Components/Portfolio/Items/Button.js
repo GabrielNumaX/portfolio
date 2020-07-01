@@ -23,26 +23,37 @@ const Button = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project:&nbsp;
-                <a href="https://codepen.io/NumaX/full/VwwKYZq" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={css.ItemLink2} >Button Generator</a> 
-                </h1>
+                <div className={css.DivItemCol1}>
 
-                <img src={require('../../../assets/portfolio/button.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
 
-                <div className={css.ItemDesc}>
-                    <p>
-                        HTML Button Generator done in Vanilla Javascript. <br/>
-                        Give it a try and create your button.
-                    </p> 
                 </div>
 
-                <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                 
+                <div className={css.DivItemCol2}>
+
+                    <h1 className={css.ItemH1}>Project:&nbsp;
+                    <a href="https://codepen.io/NumaX/full/VwwKYZq" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink2} >Button Generator</a> 
+                    </h1>
+
+                    <img src={require('../../../assets/portfolio/button.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
+
+                    <div className={css.ItemDesc}>
+                        <p>
+                            HTML Button Generator done in Vanilla Javascript. <br/>
+                            Give it a try and create your button.
+                        </p> 
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
+                </div>
+
+                <div className={css.DivItemCol3}></div>
+
+
             </div>
 
                 {zoom ? 

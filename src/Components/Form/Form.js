@@ -47,18 +47,26 @@ class Form extends Component {
 
         const templateId = 'template_EbBWt3FZ';
 
-        if(this.state.feedback === ''){
+        if(this.state.email === ''){
 
             this.setState({
-                popupText: 'Please Enter a Message'
+                popupText: 'Please Enter your Email'
             });
 
             this.togglePopup();
         }
-        else if(this.state.email === ''){
+        else if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.state.email))) {
+        
+            this.setState({
+                popupText: 'Please Enter a valid Email'
+            });
+
+            this.togglePopup();
+        }
+        else if(this.state.feedback === ''){
 
             this.setState({
-                popupText: 'Please Enter your Email'
+                popupText: 'Please Enter a Message'
             });
 
             this.togglePopup();

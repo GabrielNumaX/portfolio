@@ -23,25 +23,30 @@ const Vegan = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project: &nbsp; 
-                    <a href="https://codepen.io/NumaX/full/qBWbmKO" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={css.ItemLink2} >Vegan Store</a> </h1>
+                <div className={css.DivItemCol1}></div>
 
-                <img src={require('../../../assets/portfolio/vegan.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
+                <div className={css.DivItemCol2}>
+                    <h1 className={css.ItemH1}>Project: &nbsp; 
+                        <a href="https://codepen.io/NumaX/full/qBWbmKO" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink2} >Vegan Store</a> </h1>
 
-                <div className={css.ItemDesc}>
-                    <p>
-                        Vegan Shop Landing page done as the final project of CSS (responsive)
-                        stage of Edyoda's Front End Program.
-                    </p> 
+                    <img src={require('../../../assets/portfolio/vegan.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
+
+                    <div className={css.ItemDesc}>
+                        <p>
+                            Vegan Shop Landing page done as the final project of CSS (responsive)
+                            stage of Edyoda's Front End Program.
+                        </p> 
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
                 </div>
 
-                <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                 
+                <div className={css.DivItemCol3}></div>    
             </div>
 
                 {zoom ? 

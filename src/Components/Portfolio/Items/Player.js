@@ -23,27 +23,34 @@ const Player = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project: &nbsp; 
-                <a href="https://gabrielnumax.github.io/react-music-player/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={css.ItemLink2} >Music Player</a> </h1>
+                <div className={css.DivItemCol1}></div>
 
-                <img src={require('../../../assets/portfolio/player.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
+                <div className={css.DivItemCol2}>
 
-                <div className={css.ItemDesc}>
-                    <p>
-                        Music Player done in ReactJS consuming from API. <br/>
-                        DISCLAIMER: It has bugs &#128517;
-                    </p>
+                    <h1 className={css.ItemH1}>Project: &nbsp; 
+                    <a href="https://gabrielnumax.github.io/react-music-player/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink2} >Music Player</a> </h1>
 
-                     
-                </div>
+                    <img src={require('../../../assets/portfolio/player.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
 
-                <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                 
+                    <div className={css.ItemDesc}>
+                        <p>
+                            Music Player done in ReactJS consuming from API. <br/>
+                            DISCLAIMER: It has bugs &#128517;
+                        </p>
+
+                        
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
+                </div>    
+
+                <div className={css.DivItemCol3}></div>
+                
             </div>
 
                 {zoom ? 

@@ -18,9 +18,9 @@
 }
 
 .Img {
-    width: 210px;
+    width: 20%;
     border-radius: 50%;
-    margin-top: 58px;
+    margin-top: 10vh;
     filter: grayscale(20%);
     animation: show 4.9s;
 }
@@ -220,10 +220,10 @@
 
 @media (max-width: 768px) {
 
-    .Img {
-        width: 210px;
-        margin-top: 58px;
-    }
+    /* .Img { */
+        /* width: 210px; */
+        /* margin-top: 58px; */
+    /* } */
 
     .HomeH1 {
         font-size: 48px;
@@ -240,8 +240,8 @@
 @media (max-width: 480px) {
 
     .Img {
-        width: 160px;
-        margin-top: 98px;
+        width: 33%;
+        /* margin-top: 98px; */
     }
         
     .HomeH1 {

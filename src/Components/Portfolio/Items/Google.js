@@ -23,28 +23,35 @@ const Google = (props) => {
 
                 </div>
 
-                <h1 className={css.ItemH1}>Project: &nbsp;
-                <a href="https://codepen.io/NumaX/full/VorjpO" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={css.ItemLink2} >Google Clone</a> 
-                </h1>
+                <div className={css.DivItemCol1}></div>
 
-                <img src={require('../../../assets/portfolio/googleClone.png')} alt='item' 
-                    className={css.ItemImg}
-                    onClick={() => setZoom(!zoom)}></img>
+                <div className={css.DivItemCol2}>
 
-                <div className={css.ItemDesc}>
-                    <p>
-                        Google Clone layout done as part of HTML stage of
-                        Edyoda's Front End Program.
-                    </p>
+                    <h1 className={css.ItemH1}>Project: &nbsp;
+                    <a href="https://codepen.io/NumaX/full/VorjpO" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={css.ItemLink2} >Google Clone</a> 
+                    </h1>
 
-                     
+                    <img src={require('../../../assets/portfolio/googleClone.png')} alt='item' 
+                        className={css.ItemImg}
+                        onClick={() => setZoom(!zoom)}></img>
+
+                    <div className={css.ItemDesc}>
+                        <p>
+                            Google Clone layout done as part of HTML stage of
+                            Edyoda's Front End Program.
+                        </p>
+
+                        
+                    </div>
+
+                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
                 </div>
 
-                <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                 
+                <div className={css.DivItemCol3}></div>
+                
             </div>
 
                 {zoom ? 
