@@ -4,6 +4,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import Main from './Containers/Main/Main';
 import './App.css';
 
+import Notex from './Components/Portfolio/Items/Notex';
 import Todo from './Components/Portfolio/Items/Todo';
 import Vegan from './Components/Portfolio/Items/Vegan';
 import Shoplane from './Components/Portfolio/Items/Shoplane';
@@ -25,6 +26,7 @@ class App extends Component {
 
            <Route exact path='/' component={Main}></Route>
            
+           <Route path='/notex' component={Notex}></Route>
            <Route path='/todo-app' component={Todo}></Route>
            <Route path='/vegan-store' component={Vegan}></Route>
            <Route path='/shoplane-e-commerce' component={Shoplane}></Route>

@@ -7,6 +7,7 @@ import css from './Portfolio.module.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faExternalLinkAlt, faPlusSquare} from '@fortawesome/free-solid-svg-icons'
 
+import notex from '../../assets/portfolio/notex.png';
 import todo from '../../assets/portfolio/todo.png';
 import vegan from '../../assets/portfolio/vegan.png';
 import shoplane from '../../assets/portfolio/shoplane.png';
@@ -53,6 +54,31 @@ class Portfolio extends Component {
                 <div className={css.PortfolioColumn}>
 
                     <div className={css.PortfolioRow}>
+
+                        <div className={css.PortfolioItem}>
+                            
+                            <img src={notex} className={css.ItemImg} alt='portfolio item'></img>
+
+                            <div className={css.DivIcon}>
+
+                                <Link to={{
+                                    pathname:'/notex',
+                                    ref: this.state.myRef,
+                                    }} className={css.Icon1}>
+                                    <FontAwesomeIcon icon={faPlusSquare}
+                                                        className={css.Icon}></FontAwesomeIcon>
+
+                                </Link>
+
+                                <a href="https://notex-2020.herokuapp.com/" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className={css.Icon1}>
+                                    <FontAwesomeIcon icon={faExternalLinkAlt}
+                                                className={css.Icon}></FontAwesomeIcon>
+                                </a>
+                            </div>
+                        </div>
 
                         <div className={css.PortfolioItem}>
                         

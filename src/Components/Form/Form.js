@@ -55,7 +55,7 @@ class Form extends Component {
 
             this.togglePopup();
         }
-        else if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.state.email))) {
+        else if(!(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(this.state.email))) {
         
             this.setState({
                 popupText: 'Please Enter a valid Email'
