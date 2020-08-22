@@ -9,6 +9,7 @@ import redux from '../../assets/icons/redux.png'
 import axios from '../../assets/icons/axios.png'
 import html from '../../assets/icons/html.jpg'
 import cssImg from '../../assets/icons/css.jpg'
+import sass from '../../assets/icons/sass.png'
 import node from '../../assets/icons/node.png'
 import express from '../../assets/icons/express.png'
 import mongo from '../../assets/icons/mongo.png'
@@ -17,6 +18,8 @@ import atom from '../../assets/icons/atom.png'
 import postman from '../../assets/icons/postman.jpeg'
 import xammp from '../../assets/icons/xammp2.jpg'
 import git from '../../assets/icons/git_crop.png'
+import npm from '../../assets/icons/npm.png'
+import powershell from '../../assets/icons/powershell.jpg'
 import ai from '../../assets/icons/ai.jpg'
 import java from '../../assets/icons/java.png'
 import python from '../../assets/icons/python.png'
@@ -65,6 +68,10 @@ const Skills = () => {
                             <img src={cssImg} alt='css'
                                 className={css.ImgLogo40}></img>
                         </li>
+                        <li>Sass
+                            <img src={sass} alt='sass'
+                                className={css.ImgLogo40}></img>
+                        </li>
                         <li>NodeJs
                             <img src={node} alt='node'
                                 className={css.ImgLogo40}></img>
@@ -95,6 +102,14 @@ const Skills = () => {
                         </li>
                         <li>Postman
                             <img src={postman} alt='postman'
+                                className={css.ImgLogo50}></img>
+                        </li>
+                        <li>NPM
+                            <img src={npm} alt='npm'
+                                className={css.ImgLogo50}></img>
+                        </li>
+                        <li>Powershell
+                            <img src={powershell} alt='powershell'
                                 className={css.ImgLogo50}></img>
                         </li>
                         <li>Xammp 

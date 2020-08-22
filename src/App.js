@@ -4,6 +4,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import Main from './Containers/Main/Main';
 import './App.css';
 
+import Mathtrix from './Components/Portfolio/Items/Mathtrix';
 import Notex from './Components/Portfolio/Items/Notex';
 import Todo from './Components/Portfolio/Items/Todo';
 import Vegan from './Components/Portfolio/Items/Vegan';
@@ -26,6 +27,7 @@ class App extends Component {
 
            <Route exact path='/' component={Main}></Route>
            
+           <Route path='/mathtrix' component={Mathtrix}></Route>
            <Route path='/notex' component={Notex}></Route>
            <Route path='/todo-app' component={Todo}></Route>
            <Route path='/vegan-store' component={Vegan}></Route>
