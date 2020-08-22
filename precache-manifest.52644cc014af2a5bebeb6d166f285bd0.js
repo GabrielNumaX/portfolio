@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40b2d0017df133892500cae54a8f48cb",
+    "revision": "6c9ca85d55be4946cba7e915b67255be",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "02feb125b914308abb32",
-    "url": "/portfolio/static/css/main.ccec71a6.chunk.css"
+    "revision": "01a2d7bb2a8ff173d2c6",
+    "url": "/portfolio/static/css/main.053faa47.chunk.css"
   },
   {
-    "revision": "c875b294689a68e5369a",
-    "url": "/portfolio/static/js/2.5b14ca19.chunk.js"
+    "revision": "9b8e1da0b5a52ed8761e",
+    "url": "/portfolio/static/js/2.41eee112.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.5b14ca19.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.41eee112.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02feb125b914308abb32",
-    "url": "/portfolio/static/js/main.3eecc137.chunk.js"
+    "revision": "01a2d7bb2a8ff173d2c6",
+    "url": "/portfolio/static/js/main.942ea863.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -88,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/marble_edit.b6d47ac8.png"
   },
   {
+    "revision": "036ce5836fb975ec951dc3293dc50917",
+    "url": "/portfolio/static/media/mathtrix.036ce583.png"
+  },
+  {
     "revision": "dc54e78b3628b83a8b5991b7f6635794",
     "url": "/portfolio/static/media/notex.dc54e78b.png"
   },
@@ -100,12 +104,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/postman.fb8c441c.jpeg"
   },
   {
+    "revision": "c23803e3064dcf90ce2fce4f33f73d77",
+    "url": "/portfolio/static/media/powershell.c23803e3.jpg"
+  },
+  {
     "revision": "62fc82a94b46db0f8ce531b8c45b5e4b",
     "url": "/portfolio/static/media/profilePic.62fc82a9.jpg"
   },
   {
     "revision": "11e90c29b7c1d54a7f1a300586dc7159",
     "url": "/portfolio/static/media/react.11e90c29.png"
+  },
+  {
+    "revision": "5e3afcae155d16b9366d338885ab99f8",
+    "url": "/portfolio/static/media/sass.5e3afcae.png"
   },
   {
     "revision": "3a28743d356ead2247f8dd806e6f8fe7",
