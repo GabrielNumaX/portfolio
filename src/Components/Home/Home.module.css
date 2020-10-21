@@ -135,7 +135,7 @@
     animation-delay: 1700ms;
 }
 
-@keyframes text {
+/* @keyframes text {
     0% {
         color: hsl(7, 80%, 40%);
     }
@@ -168,6 +168,20 @@
     }
     100% {
         color: hsl(340, 80%, 40%);
+    }
+} */
+
+@keyframes text {
+    0% {
+        color: var(--text);
+    }
+
+    50% {
+        color: var(--bgc);
+    }
+
+    100% {
+        color: var(--text);
     }
 }
 
@@ -261,12 +275,12 @@
 
     .Img {
         width: 160px;
-        margin-top: 50%;
+        margin-top: 25%;
     }
         
     .HomeH1 {
         font-size: 28px;
-        margin-top: 30%;
+        margin-top: 20%;
     }
 
     .HomeH2 {

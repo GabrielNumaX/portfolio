@@ -92,11 +92,8 @@
     position: absolute;
     color: var(--text);
     text-shadow: 0px 0px 15px #000000;
-    /* left: 70px; */
     right: 48px;
-    top: 73px;
-    /* z-index: -2000; */
-    
+    top: 73px;   
 }
 
 .ShowAddress {
@@ -177,36 +174,36 @@
     .ShowHome {
         width: 80px;
         font-size: 14px;
-        right: 34px;
-        top: 56px;
+        right: 18px;
+        top: 46px;
     }
 
     .ShowAddress {
         width: 80px;
         font-size: 14px;
-        right: 34px;
-        top: 88px;
+        right: 18px;
+        top: 78px;
     }
 
     .ShowTools {
         width: 80px;
         font-size: 14px;
-        right: 34px;
-        top: 122px;
+        right: 18px;
+        top: 112px;
     }
 
     .ShowBriefcase {
         width: 80px;
         font-size: 14px;
-        right: 34px;
-        top: 154px;
+        right: 18px;
+        top: 144px;
     }
 
     .ShowEnvelope {
         width: 80px;
         font-size: 14px;
-        right: 34px;
-        top: 186px;
+        right: 18px;
+        top: 176px;
     }
 
 

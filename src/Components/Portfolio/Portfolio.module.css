@@ -199,12 +199,12 @@
 @media (max-width: 480px) {
 
     .DivPortfolio {
-        height: 2300px;
+        height: 2750px;
         justify-content: flex-start;
     }
 
     .ImgPortfolio {
-        height: 2300px;
+        height: 2750px;
     }
 
     .PortfolioH3 {
@@ -258,12 +258,12 @@
 @media (max-width: 360px) {
 
     .DivPortfolio {
-        height: 1800px;
+        height: 2150px;
         justify-content: flex-start;
     }
 
     .ImgPortfolio {
-        height: 1800px;
+        height: 2150px;
     }
 
     .PortfolioH3 {
