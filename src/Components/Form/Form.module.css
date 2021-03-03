@@ -6,6 +6,7 @@
 :root {
     --text: #f7f7f7;
     --bgc: #535257;
+    --black: #1e1e1e;
   }
 
 .FormDiv {
@@ -106,13 +107,35 @@ input[type="button"] {
     width: 160px;
     border: none;
     background-color: var(--bgc);
-    color: var(--text);
+    /* color: var(--text); */
     font-size: 18px;
     border-radius: 25px;
 }
 
 input[type="button"]:hover {
     cursor: pointer;
+}
+
+.Send {
+    color: var(--text);
+}
+
+.SendAnimate {
+    animation: text 2.2s ease-in infinite;
+}
+
+@keyframes text {
+    0% {
+        color: var(--text);
+    }
+
+    50% {
+        color: var(--black);
+    }
+
+    100% {
+        color: var(--text);
+    }
 }
 
 @media (max-width: 768px) {

@@ -17,6 +17,7 @@ class Form extends Component {
             showPopup: false,
             popupText: '',
             sendMessage: 'Send Message',
+            isSending: false,
             };
     }
 
@@ -74,7 +75,8 @@ class Form extends Component {
         else {
 
             this.setState({
-                sendMessage: 'Sending...'
+                sendMessage: 'Sending...',
+                isSending: true,
             })
 
             this.sendFeedback(templateId, 
@@ -101,7 +103,8 @@ class Form extends Component {
                 name: '', 
                 email: '',
                 popupText: 'Email sent successfully!!!',
-                sendMessage: 'Send Message'
+                sendMessage: 'Send Message',
+                isSending: false,
             });
 
             this.togglePopup()
@@ -121,6 +124,15 @@ class Form extends Component {
       }
 
     render() {
+
+        let send = [];
+
+        if(this.state.isSending) {
+            send.push(css.SendAnimate);
+        }
+        else{
+            send.push(css.Send)
+        }
         return(
             <div className={css.FormDiv}>
                 <form className={css.Form}>
@@ -156,7 +168,8 @@ class Form extends Component {
                     </div>
 
                     <div className={css.DivBtn}>
-                        <input type="button" 
+                        <input  className={send.join('')}
+                                type="button" 
                                 value={this.state.sendMessage} 
                                 onClick={this.handleSubmit}>    
                         </input>
