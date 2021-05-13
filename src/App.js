@@ -26,10 +26,10 @@ class App extends Component {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
 
            <Route exact path='/' component={Main}></Route>
-           
+
+           <Route path='/calendarium' component={Todo}></Route>
            <Route path='/mathtrix' component={Mathtrix}></Route>
            <Route path='/notex' component={Notex}></Route>
-           <Route path='/todo-app' component={Todo}></Route>
            <Route path='/vegan-store' component={Vegan}></Route>
            <Route path='/shoplane-e-commerce' component={Shoplane}></Route>
            <Route path='/music-player' component={Player}></Route>

@@ -29,19 +29,18 @@ const Todo = (props) => {
                 <div className={css.DivItemCol2}>
 
                     <h1 className={css.ItemH1}>Project: &nbsp;
-                    <a href="https://gabrielnumax.github.io/todo-app/" 
+                    <a href="https://calendarium-app.herokuapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
-                                className={css.ItemLink2} >Todo App</a></h1>
+                                className={css.ItemLink2} >Calendarium</a></h1>
 
-                    <img src={require('../../../assets/portfolio/todo.png')} alt='item' 
+                    <img src={require('../../../assets/portfolio/calendarium.png')} alt='item' 
                         className={css.ItemImg}
                         onClick={() => setZoom(!zoom)}></img>
 
                     <div className={css.ItemDesc}>
                         <p>
-                            This proyect was done using ReactJS and Redux as a task for 
-                            a remote internship.
+                            MERN Stack To-Do list app. It has "Forgot Password" feature.
                         </p>  
                     </div>
 
