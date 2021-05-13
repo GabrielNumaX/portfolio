@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.71633060.chunk.css",
-    "main.js": "/portfolio/static/js/main.54917623.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.54917623.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c771b316.chunk.css",
+    "main.js": "/portfolio/static/js/main.39aff3bc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.39aff3bc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.5b8f445d.chunk.js": "/portfolio/static/js/2.5b8f445d.chunk.js",
-    "static/js/2.5b8f445d.chunk.js.map": "/portfolio/static/js/2.5b8f445d.chunk.js.map",
+    "static/js/2.b9478a35.chunk.js": "/portfolio/static/js/2.b9478a35.chunk.js",
+    "static/js/2.b9478a35.chunk.js.map": "/portfolio/static/js/2.b9478a35.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3ef17d0403928222f4c904d2683d602d.js": "/portfolio/precache-manifest.3ef17d0403928222f4c904d2683d602d.js",
+    "precache-manifest.1b7296b2a938bf20e1a4fede7899a5d8.js": "/portfolio/precache-manifest.1b7296b2a938bf20e1a4fede7899a5d8.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.71633060.chunk.css.map": "/portfolio/static/css/main.71633060.chunk.css.map",
-    "static/js/2.5b8f445d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5b8f445d.chunk.js.LICENSE.txt",
+    "static/css/main.c771b316.chunk.css.map": "/portfolio/static/css/main.c771b316.chunk.css.map",
+    "static/js/2.b9478a35.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b9478a35.chunk.js.LICENSE.txt",
     "static/media/ai.jpg": "/portfolio/static/media/ai.d7dd5507.jpg",
     "static/media/atom.png": "/portfolio/static/media/atom.9eaeb173.png",
     "static/media/axios.png": "/portfolio/static/media/axios.f2c25979.png",
     "static/media/Home.module.css": "/portfolio/static/media/background.e31c3dcc.png",
     "static/media/button.png": "/portfolio/static/media/button.23b2e4a6.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.82cf7a66.png",
+    "static/media/calendarium.png": "/portfolio/static/media/calendarium.23cf1e8a.png",
     "static/media/clock.png": "/portfolio/static/media/clock.0ecb8ed3.png",
     "static/media/css.jpg": "/portfolio/static/media/css.c2c1a107.jpg",
     "static/media/dice.png": "/portfolio/static/media/dice.b2d5deb2.png",
@@ -47,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.5b8f445d.chunk.js",
-    "static/css/main.71633060.chunk.css",
-    "static/js/main.54917623.chunk.js"
+    "static/js/2.b9478a35.chunk.js",
+    "static/css/main.c771b316.chunk.css",
+    "static/js/main.39aff3bc.chunk.js"
   ]
 }
