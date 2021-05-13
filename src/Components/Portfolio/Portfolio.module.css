@@ -82,8 +82,9 @@
 }
 
 .ItemH2 {
-    text-shadow: 2px 2px 8px var(--textBlack);
+    text-shadow: 0px 0px 4px var(--textBlack);
     font-size: 32px;
+    color: var(--text);
     margin: 0;
     padding: 0;
     padding-bottom: 12px;
