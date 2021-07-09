@@ -85,6 +85,11 @@ textarea {
     height: 160px;
     padding: 6px 8px 6px 8px;
     border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"], input[type="email"] {
+    outline: none;
 }
 
 h5 {

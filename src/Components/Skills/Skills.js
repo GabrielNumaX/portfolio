@@ -25,7 +25,7 @@ import ai from '../../assets/icons/ai.jpg'
 import python from '../../assets/icons/python.png'
 import slack from '../../assets/icons/slack.png'
 import asana from '../../assets/icons/asana-square.png'
-
+import material from '../../assets/icons/material.jpg'
 
 const Skills = () => {
 
@@ -73,6 +73,10 @@ const Skills = () => {
 
                         <li>Redux
                             <img src={redux} alt='redux'
+                                className={css.ImgLogo40}></img>
+                        </li>
+                        <li>Material UI
+                            <img src={material} alt='material-ui'
                                 className={css.ImgLogo40}></img>
                         </li>
                         {/* <li>Axios
