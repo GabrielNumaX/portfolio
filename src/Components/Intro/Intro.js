@@ -15,7 +15,7 @@ const Intro = () => {
             <div className={css.DivIntro}>
                 <h2 className={css.IntroH2}>Hello I'm Gabriel</h2>
                 <p className={css.IntroP}>
-                    A MERN Stack Developer with a college degree Universidad Tecnologica Nacional from Argentina.
+                    A MERN Stack Developer with a college degree from the Universidad Tecnologica Nacional (UTN) from Argentina.
                     <br />
                     I have more than two years of experience as a developer and {/*I'm currently working at <a className={css.ApploreLink} href="https://beanstalkedu.com" target="_blank" rel="noopener noreferrer">Beanstalk</a> (India). <br /> */}
                     I'm currently looking forward to participate in large-scale projects that will allow me to apply my skills.
