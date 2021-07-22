@@ -1,4 +1,4 @@
-import React , { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import css from './Items.module.css';
 
@@ -12,29 +12,29 @@ const Smartwatch = (props) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
-      
-    return(
+    }, [])
+
+    return (
 
         <div>
             <div className={css.DivItem}>
 
-                <div className={css.ItemBg}>
+                {/* <div className={css.ItemBg}>
 
-                </div>
+                </div> */}
 
                 <div className={css.DivItemCol1}></div>
 
-                    <div className={css.DivItemCol2}>
+                <div className={css.DivItemCol2}>
 
                     <h1 className={css.ItemH1}>Project:&nbsp;
-                    <a href="https://gabrielnumax.github.io/react-smartwatch/" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className={css.ItemLink2} >Smartwatch</a>
+                        <a href="https://gabrielnumax.github.io/react-smartwatch/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={css.ItemLink2} >Smartwatch</a>
                     </h1>
 
-                    <img src={require('../../../assets/portfolio/smartwatch.png')} alt='item' 
+                    <img src={require('../../../assets/portfolio/smartwatch.png')} alt='item'
                         className={css.ItemImg}
                         onClick={() => setZoom(!zoom)}></img>
 
@@ -44,23 +44,26 @@ const Smartwatch = (props) => {
                             Done in ReactJS to practice Lifecycle Methods.
                         </p>
 
-                        
+
                     </div>
 
-                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                </div>   
+                    <h3 className={css.GoBack} onClick={() => {
+                        props.history.goBack();
+                        // window.scrollTo(0, props.location.ref)
+                    }}>Go Back</h3>
+                </div>
 
                 <div className={css.DivItemCol3}></div>
-                 
+
             </div>
 
-                {zoom ? 
-                        <ZoomItem
-                        img={require('../../../assets/portfolio/smartwatch.png')}
-                        closePopup={() => setZoom(!zoom)}
-                    />
-                    : null
-                }
+            {zoom ?
+                <ZoomItem
+                    img={require('../../../assets/portfolio/smartwatch.png')}
+                    closePopup={() => setZoom(!zoom)}
+                />
+                : null
+            }
             <Footer></Footer>
         </div>
     )

@@ -9,8 +9,24 @@
     /* flex-direction: column; */
     /* align-items: center; */
     /* justify-content: space-between; */
+    /* width: 100%; */
+    /* height: 100vh;  */
+    min-height: 600px;
+
+    /* ItemBg -> IMAGE */
+    /* -webkit-filter:grayscale(88%);
+    -moz-filter: grayscale(88%);
+    -o-filter: grayscale(88%);
+    -ms-filter: grayscale(88%);
+    filter: grayscale(88%); */
+    background: url('../../../assets/marble_edit.png') top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    /* height: 100vh; */
+    /* height: 100%; */
     width: 100%;
-    height: 100vh; 
+    /* position: absolute; */
 }
 
 .ItemBg {
@@ -22,7 +38,8 @@
     background: url('../../../assets/marble_edit.png') top center;
     background-size: cover;
     z-index: 1;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
     width: 100%;
     position: absolute;
 }

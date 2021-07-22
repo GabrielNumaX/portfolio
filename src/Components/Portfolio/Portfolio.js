@@ -7,6 +7,7 @@ import css from './Portfolio.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 
+import ephemeral from '../../assets/portfolio/ephemeral.png';
 import mathtrix from '../../assets/portfolio/mathtrix.png';
 import notex from '../../assets/portfolio/notex.png';
 // import todo from '../../assets/portfolio/todo.png';
@@ -15,7 +16,7 @@ import vegan from '../../assets/portfolio/vegan.png';
 import shoplane from '../../assets/portfolio/shoplane.png';
 import player from '../../assets/portfolio/player.png';
 import dice from '../../assets/portfolio/dice.png';
-import google from '../../assets/portfolio/googleClone.png';
+// import google from '../../assets/portfolio/googleClone.png';
 import smartwatch from '../../assets/portfolio/smartwatch.png';
 import button from '../../assets/portfolio/button.png';
 import calculator from '../../assets/portfolio/calculator.png';
@@ -56,6 +57,37 @@ class Portfolio extends Component {
                 <div className={css.PortfolioColumn}>
 
                     <div className={css.PortfolioRow}>
+
+                        <div className={css.PortfolioItemContainer}>
+
+                            <h2 className={css.ItemH2}>Ephemeral</h2>
+
+
+                            <div className={css.PortfolioItem}>
+
+                                <img src={ephemeral} className={css.ItemImg} alt='portfolio item'></img>
+
+                                <div className={css.DivIcon}>
+
+                                    <Link to={{
+                                        pathname: '/ephemeral',
+                                        ref: this.state.myRef,
+                                    }} className={css.Icon1}>
+                                        <FontAwesomeIcon icon={faPlusSquare}
+                                            className={css.Icon}></FontAwesomeIcon>
+
+                                    </Link>
+
+                                    <a href="https://ephemeral-chat.herokuapp.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={css.Icon1}>
+                                        <FontAwesomeIcon icon={faExternalLinkAlt}
+                                            className={css.Icon}></FontAwesomeIcon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
                         <div className={css.PortfolioItemContainer}>
 
@@ -276,7 +308,7 @@ class Portfolio extends Component {
                             </div>
                         </div>
 
-                        <div className={css.PortfolioItemContainer}>
+                        {/* <div className={css.PortfolioItemContainer}>
 
                             <h2 className={css.ItemH2}>Google Clone</h2>
 
@@ -305,7 +337,7 @@ class Portfolio extends Component {
                                 </div>
 
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* <div className={css.PortfolioRow}> */}
 

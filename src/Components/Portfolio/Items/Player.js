@@ -1,4 +1,4 @@
-import React , { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import css from './Items.module.css';
 
@@ -12,54 +12,57 @@ const Player = (props) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
-      
-    return(
+    }, [])
+
+    return (
 
         <div>
             <div className={css.DivItem}>
 
-                <div className={css.ItemBg}>
+                {/* <div className={css.ItemBg}>
 
-                </div>
+                </div> */}
 
                 <div className={css.DivItemCol1}></div>
 
                 <div className={css.DivItemCol2}>
 
-                    <h1 className={css.ItemH1}>Project: &nbsp; 
-                    <a href="https://gabrielnumax.github.io/react-music-player/" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className={css.ItemLink2} >Music Player</a> </h1>
+                    <h1 className={css.ItemH1}>Project: &nbsp;
+                        <a href="https://gabrielnumax.github.io/react-music-player/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={css.ItemLink2} >Music Player</a> </h1>
 
-                    <img src={require('../../../assets/portfolio/player.png')} alt='item' 
+                    <img src={require('../../../assets/portfolio/player.png')} alt='item'
                         className={css.ItemImg}
                         onClick={() => setZoom(!zoom)}></img>
 
                     <div className={css.ItemDesc}>
                         <p>
-                            Music Player done in ReactJS consuming from API. <br/>
+                            Music Player done in ReactJS consuming from API. <br />
                             DISCLAIMER: It has bugs &#128517;
                         </p>
 
-                        
+
                     </div>
 
-                    <h3 className={css.GoBack} onClick={props.history.goBack}>Go Back</h3>
-                </div>    
+                    <h3 className={css.GoBack} onClick={() => {
+                        props.history.goBack();
+                        // window.scrollTo(0, props.location.ref)
+                    }}>Go Back</h3>
+                </div>
 
                 <div className={css.DivItemCol3}></div>
-                
+
             </div>
 
-                {zoom ? 
-                        <ZoomItem
-                        img={require('../../../assets/portfolio/player.png')}
-                        closePopup={() => setZoom(!zoom)}
-                    />
-                    : null
-                }
+            {zoom ?
+                <ZoomItem
+                    img={require('../../../assets/portfolio/player.png')}
+                    closePopup={() => setZoom(!zoom)}
+                />
+                : null
+            }
             <Footer></Footer>
         </div>
     )

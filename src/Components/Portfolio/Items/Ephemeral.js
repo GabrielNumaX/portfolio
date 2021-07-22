@@ -6,7 +6,7 @@ import ZoomItem from './ZoomItem';
 import Footer from '../../Footer/Footer';
 
 
-const Todo = (props) => {
+const Ephemeral = (props) => {
 
     const [zoom, setZoom] = useState(false);
 
@@ -29,18 +29,18 @@ const Todo = (props) => {
                 <div className={css.DivItemCol2}>
 
                     <h1 className={css.ItemH1}>Project: &nbsp;
-                        <a href="https://calendarium-app.herokuapp.com/"
+                        <a href="https://ephemeral-chat.herokuapp.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className={css.ItemLink2} >Calendarium</a></h1>
+                            className={css.ItemLink2} >Ephemeral</a></h1>
 
-                    <img src={require('../../../assets/portfolio/calendarium.png')} alt='item'
+                    <img src={require('../../../assets/portfolio/ephemeral.png')} alt='item'
                         className={css.ItemImg}
                         onClick={() => setZoom(!zoom)}></img>
 
                     <div className={css.ItemDesc}>
                         <p>
-                            MERN Stack To-Do list app. It has "Forgot Password" feature.
+                            MERN Stack Ephemeral Chat App with Socket.io Library.
                         </p>
                     </div>
 
@@ -55,14 +55,11 @@ const Todo = (props) => {
 
                 </div>
 
-
-
-
             </div>
 
             {zoom ?
                 <ZoomItem
-                    img={require('../../../assets/portfolio/todo.png')}
+                    img={require('../../../assets/portfolio/ephemeral.png')}
                     closePopup={() => setZoom(!zoom)}
                 />
                 : null
@@ -72,4 +69,4 @@ const Todo = (props) => {
     )
 }
 
-export default Todo;
+export default Ephemeral;
