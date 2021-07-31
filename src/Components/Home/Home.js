@@ -4,14 +4,14 @@ import css from './Home.module.css';
 
 const Home = () => {
 
-    return(
+    return (
 
         <div className={css.HomeMain}>
 
-            <img src={require('../../Utils/profilePic.jpg')} 
+            <img src={require('../../Utils/profilePic.jpg')}
                 alt="profile pic"
-                className={css.Img}></img>    
-           
+                className={css.Img}></img>
+
             <h1 className={css.HomeH1}>
                 <span className={css.Span1}>G</span>
                 <span className={css.Span2}>a</span>
@@ -37,6 +37,12 @@ const Home = () => {
             <h2 className={css.HomeH2}>
                 Web Developer
             </h2>
+
+            <a className={css.newPortfolioLink}
+                href="https://numax.herokuapp.com"
+                target="_self"
+                rel="noopener noreferrer">I Moved Here: https://numax.herokuapp.com</a>
+
         </div>
     );
 }

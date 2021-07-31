@@ -1,19 +1,19 @@
-import React, {Component}from 'react';
+import React, { Component } from 'react';
 
 
-import Header from '../../Components/Header/Header';
+// import Header from '../../Components/Header/Header';
 import Home from '../../Components/Home/Home';
-import Intro from '../../Components/Intro/Intro';
-import Skills from '../../Components/Skills/Skills';
-import Portfolio from '../../Components/Portfolio/Portfolio';
-import Contact from '../../Components/Contact/Contact';
+// import Intro from '../../Components/Intro/Intro';
+// import Skills from '../../Components/Skills/Skills';
+// import Portfolio from '../../Components/Portfolio/Portfolio';
+// import Contact from '../../Components/Contact/Contact';
 import Footer from '../../Components/Footer/Footer';
 
 
 
 class Main extends Component {
 
-    constructor(props){
+    constructor(props) {
 
         super(props);
 
@@ -26,26 +26,26 @@ class Main extends Component {
 
     scrollToContent = (element) => {
 
-        switch(element){
+        switch (element) {
             case 'home':
-                this.homeRef.current.scrollIntoView({behavior: 'smooth'});
+                this.homeRef.current.scrollIntoView({ behavior: 'smooth' });
                 break;
             case 'intro':
-                this.introRef.current.scrollIntoView({behavior: 'smooth'});
+                this.introRef.current.scrollIntoView({ behavior: 'smooth' });
                 break;
             case 'skills':
-                this.skillsRef.current.scrollIntoView({behavior: 'smooth'});
+                this.skillsRef.current.scrollIntoView({ behavior: 'smooth' });
                 break;
             case 'portfolio':
-                this.portfolioRef.current.scrollIntoView({behavior: 'smooth'});
+                this.portfolioRef.current.scrollIntoView({ behavior: 'smooth' });
                 break;
             case 'form':
-                this.formRef.current.scrollIntoView({behavior: 'smooth'});
+                this.formRef.current.scrollIntoView({ behavior: 'smooth' });
                 break;
-            default: 
+            default:
                 break;
         }
-      }
+    }
 
     //   componentDidMount() {
 
@@ -55,20 +55,20 @@ class Main extends Component {
 
     render() {
 
-        return(
+        return (
 
             <div>
-            
-                <Header goToComponent={this.scrollToContent}>
+
+                {/* <Header goToComponent={this.scrollToContent}>
                     
-                </Header>
+                </Header> */}
 
                 <div ref={this.homeRef}>
                     <Home>
                     </Home>
                 </div>
 
-                <div ref={this.introRef}>
+                {/* <div ref={this.introRef}>
                     <Intro >
 
                     </Intro>        
@@ -90,8 +90,8 @@ class Main extends Component {
                     <Contact>
 
                     </Contact>
-                </div>
-               
+                </div> */}
+
 
                 <Footer>
                 </Footer>
